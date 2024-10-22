@@ -1,0 +1,431 @@
+@import url("https://fonts.googleapis.com/css2?family=Bellefair&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bellefair&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+body#homepage {
+  background-image: url(../space-tourism-website-main/starter-code/assets/home/background-home-desktop.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+body#destpag {
+  background-image: url(../space-tourism-website-main/starter-code/assets/destination/background-destination-desktop.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+body#crew {
+  background-image: url(../space-tourism-website-main/starter-code/assets/crew/background-crew-desktop.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+body#tech {
+  background-image: url(../space-tourism-website-main/starter-code/assets/technology/background-technology-desktop.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+body main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+body main header {
+  display: flex;
+  color: white;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  height: 15%;
+  margin-top: 2%;
+}
+body main header .navbar {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: none;
+  gap: 48px;
+  -webkit-backdrop-filter: blur(80px);
+          backdrop-filter: blur(80px);
+  height: 80%;
+  background-color: rgba(255, 255, 255, 0.05);
+  margin-left: 1%;
+}
+body main header .navbar a {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 1;
+  gap: 5px;
+}
+body main header .navbar div:hover {
+  height: 100%;
+  border-bottom: 5px solid white;
+}
+body main header .logo {
+  margin-left: 2%;
+}
+body main header .logo_line {
+  height: 1px;
+  width: 60%;
+  border-top: 2px solid rgba(255, 255, 255, 0.25);
+  left: 3%;
+  position: relative;
+  z-index: 1;
+}
+body main .container {
+  display: flex;
+  height: 85%;
+}
+body main .container .homedesc {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+  margin-left: 10%;
+}
+body main .container .homedesc p {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 28px;
+  letter-spacing: 4px;
+  font-weight: 1;
+  color: #D0D6F9;
+  margin-top: 35%;
+}
+body main .container .homedesc h1 {
+  font-family: "Bellefair", sans-serif;
+  color: white;
+  text-transform: uppercase;
+  font-size: 144px;
+  font-weight: 1;
+  margin-top: 1%;
+}
+body main .container .homedesc p:last-of-type {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 18px;
+  font-weight: 1;
+  color: #D0D6F9;
+  letter-spacing: 1px;
+  margin-right: 45%;
+}
+body main .container .explore_btn {
+  width: 50%;
+  height: 100%;
+}
+body main .container .explore_btn div {
+  background-color: white;
+  border-radius: 50%;
+  height: 272px;
+  width: 272px;
+  margin-top: 40%;
+  margin-left: 30%;
+}
+body main .container .explore_btn div a {
+  color: black;
+  text-decoration: none;
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  font-family: "Bellefair", sans-serif;
+}
+body main .container .explore_btn div a:hover {
+  box-shadow: 0 0 10px 100px rgba(255, 255, 255, 0.1);
+  color: gray;
+}
+body main .container .moonimg {
+  width: 50%;
+  margin-top: 5%;
+  margin-left: 8%;
+}
+body main .container .moonimg p {
+  color: white;
+  padding-left: 15%;
+  font-family: "Barlow Condensed", sans-serif;
+  letter-spacing: 4px;
+  padding-left: 15%;
+  font-size: 28px;
+}
+body main .container .moonimg p strong {
+  color: rgba(255, 255, 255, 0.3);
+  margin-right: 10px;
+}
+body main .container .moonimg img {
+  padding-top: 15%;
+  padding-left: 15%;
+}
+body main .container .rightside {
+  width: 50%;
+}
+body main .container .rightside .insidest {
+  display: flex;
+  gap: 32px;
+  width: 50%;
+  padding-top: 25%;
+}
+body main .container .rightside .insidest a {
+  text-decoration: none;
+  font-family: "Barlow Condensed", sans-serif;
+  color: #D0D6F9;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+body main .container .rightside .insidest a:hover {
+  color: white;
+  text-decoration: underline;
+  text-underline-offset: 15px;
+  text-decoration-thickness: 5px;
+}
+body main .container .rightside .descriere {
+  color: #D0D6F9;
+}
+body main .container .rightside .descriere h1 {
+  font-family: "Bellefair", sans-serif;
+  font-size: 96px;
+  font-weight: 1;
+  padding-top: 7%;
+  padding-bottom: 5%;
+  color: white;
+  text-transform: uppercase;
+}
+body main .container .rightside .descriere p {
+  width: 55%;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-weight: 1;
+}
+body main .container .rightside .line {
+  height: 1px;
+  width: 60%;
+  border-top: 2px solid rgba(255, 255, 255, 0.25);
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+body main .container .rightside .stats {
+  display: flex;
+  gap: 100px;
+}
+body main .container .rightside .stats p {
+  color: #D0D6F9;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 14;
+  letter-spacing: 2px;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  font-weight: 1;
+}
+body main .container .rightside .stats h1 {
+  color: #D0D6F9;
+  text-transform: uppercase;
+  font-size: 28px;
+  font-weight: 1;
+  color: white;
+}
+body main .container .crew {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 80%;
+  margin-left: 10%;
+}
+body main .container .crew .crew_title p {
+  color: white;
+  font-family: "Barlow Condensed", sans-serif;
+  letter-spacing: 4.72px;
+  font-size: 28px;
+  text-transform: uppercase;
+  font-weight: 1;
+  height: 10%;
+}
+body main .container .crew .crew_title p strong {
+  color: rgba(255, 255, 255, 0.3);
+  margin-right: 10px;
+}
+body main .container .crew .crew_des {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+body main .container .crew .crew_des .crew_text {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+  justify-content: center;
+}
+body main .container .crew .crew_des .crew_text .crew_txt {
+  display: flex;
+  flex-direction: column;
+  height: 70%;
+}
+body main .container .crew .crew_des .crew_text .crew_txt p {
+  color: rgba(255, 255, 255, 0.3);
+  font-family: "Bellefair", sans-serif;
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: 1;
+  margin-top: 25%;
+  margin-bottom: 2%;
+}
+body main .container .crew .crew_des .crew_text .crew_txt h1 {
+  color: white;
+  text-transform: uppercase;
+  font-family: "Bellefair", sans-serif;
+  font-size: 56px;
+  font-weight: 1;
+  width: 75%;
+}
+body main .container .crew .crew_des .crew_text .crew_txt p:last-of-type {
+  color: #D0D6F9;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 18px;
+  text-transform: none;
+  width: 60%;
+  line-height: 180%;
+  margin-top: 2%;
+  margin-bottom: 20%;
+}
+body main .container .crew .crew_des .crew_text .btns {
+  display: flex;
+  align-items: flex-end;
+  gap: 1rem;
+  height: 10%;
+}
+body main .container .crew .crew_des .crew_text .btns .btnx {
+  width: 15px;
+  height: 15px;
+  background-color: rgba(255, 255, 255, 0.287);
+  border-radius: 50%;
+}
+body main .container .crew .crew_des .crew_text .btns .btnx:hover {
+  width: 15px;
+  height: 15px;
+  background-color: white;
+}
+body main .container .crew .crew_phto {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+body main .container .crew .crew_phto img {
+  margin-inline: auto;
+  margin-bottom: 5%;
+  -webkit-mask-image: linear-gradient(to bottom, black 80%, transparent);
+          mask-image: linear-gradient(to bottom, black 80%, transparent);
+  -webkit-mask-size: cover;
+          mask-size: cover;
+}
+body main .container .tech {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+body main .container .tech .tech_title {
+  margin-bottom: 5%;
+  margin-top: 2%;
+  margin-left: 8%;
+}
+body main .container .tech .tech_title p {
+  color: white;
+  font-family: "Barlow Condensed", sans-serif;
+  letter-spacing: 4.72px;
+  font-size: 28px;
+  text-transform: uppercase;
+  font-weight: 1;
+  height: 10%;
+}
+body main .container .tech .tech_title p strong {
+  color: rgba(255, 255, 255, 0.3);
+  margin-right: 10px;
+}
+body main .container .tech .tech_gen {
+  display: flex;
+  justify-content: start;
+  width: 100%;
+}
+body main .container .tech .tech_gen .tech_txt {
+  display: flex;
+  width: 80%;
+  justify-content: flex-start;
+}
+body main .container .tech .tech_gen .tech_txt .tech_btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10%;
+}
+body main .container .tech .tech_gen .tech_txt .tech_info {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin-top: 3%;
+  margin-left: 5%;
+}
+body main .container .tech .tech_gen .tech_txt .tech_info P {
+  font-family: "Bellefair", sans-serif;
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 32px;
+  font-weight: 1;
+}
+body main .container .tech .tech_gen .tech_txt .tech_info h1 {
+  color: white;
+  font-family: "Bellefair", sans-serif;
+  font-size: 56px;
+  font-weight: 1;
+  margin-top: 2%;
+}
+body main .container .tech .tech_gen .tech_txt .tech_info P:last-of-type {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 18px;
+  color: #D0D6F9;
+  line-height: 180%;
+  margin-top: 2%;
+}
+body main .container .tech .tech_gen .tech_txt .tech_btn {
+  width: 80px;
+  height: 100%;
+  gap: 20px;
+}
+body main .container .tech .tech_gen .tech_txt .tech_btn a {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 50%;
+  font-size: 24px;
+  gap: 10px;
+}
+body main .container .tech .tech_gen .tech_txt .tech_btn div {
+  gap: 10px;
+}/*# sourceMappingURL=allpages.css.map */
