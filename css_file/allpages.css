@@ -384,7 +384,7 @@ body main .container .tech .tech_gen .tech_txt .tech_btn {
 body main .container .tech .tech_gen .tech_txt .tech_info {
   display: flex;
   flex-direction: column;
-  width: 60%;
+  width: 50%;
   margin-left: 5%;
 }
 body main .container .tech .tech_gen .tech_txt .tech_info P {
