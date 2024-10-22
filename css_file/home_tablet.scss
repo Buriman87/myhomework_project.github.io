@@ -59,11 +59,7 @@
       header {
         margin-top: 0;
         .navbar {
-          height: 100%;
-          width: 80%;
-          div:nth-child(1) {
-            margin-left: 10%;
-          }
+          display: none;
         }
         .logo_line {
           display: none;
