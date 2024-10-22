@@ -347,8 +347,8 @@ body main .container .tech {
   width: 100%;
 }
 body main .container .tech .tech_title {
-  margin-bottom: 5%;
-  margin-top: 2%;
+  width: 92%;
+  height: 10%;
   margin-left: 8%;
 }
 body main .container .tech .tech_title p {
@@ -366,13 +366,14 @@ body main .container .tech .tech_title p strong {
 }
 body main .container .tech .tech_gen {
   display: flex;
-  justify-content: start;
+  justify-content: center;
   width: 100%;
+  height: 90%;
 }
 body main .container .tech .tech_gen .tech_txt {
   display: flex;
-  width: 80%;
-  justify-content: flex-start;
+  width: 60%;
+  align-items: center;
 }
 body main .container .tech .tech_gen .tech_txt .tech_btn {
   display: flex;
@@ -384,7 +385,6 @@ body main .container .tech .tech_gen .tech_txt .tech_info {
   display: flex;
   flex-direction: column;
   width: 60%;
-  margin-top: 3%;
   margin-left: 5%;
 }
 body main .container .tech .tech_gen .tech_txt .tech_info P {
@@ -421,11 +421,22 @@ body main .container .tech .tech_gen .tech_txt .tech_btn a {
   text-decoration: none;
   color: white;
   background-color: transparent;
-  border: 2px solid white;
+  border: 1px solid rgba(255, 255, 255, 0.222);
   border-radius: 50%;
-  font-size: 24px;
+  font-size: 32px;
   gap: 10px;
+  font-family: "Bellefair", sans-serif;
+}
+body main .container .tech .tech_gen .tech_txt .tech_btn a:hover {
+  background-color: white;
+  color: #0b0d17;
 }
 body main .container .tech .tech_gen .tech_txt .tech_btn div {
   gap: 10px;
+}
+body main .container .tech .tech_gen .tech_photo {
+  display: flex;
+  justify-content: end;
+  width: 40%;
+  height: 90%;
 }/*# sourceMappingURL=allpages.css.map */
