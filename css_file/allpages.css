@@ -81,6 +81,9 @@ body main header .navbar div:hover {
   height: 100%;
   border-bottom: 5px solid white;
 }
+body main header .hamburger {
+  display: none;
+}
 body main header .logo {
   margin-left: 2%;
 }

@@ -6,6 +6,7 @@
     main {
       header {
         margin-top: 0;
+        height: 10%;
         .navbar {
           height: 100%;
           width: 80%;
@@ -15,9 +16,6 @@
         }
         .logo_line {
           display: none;
-        }
-        .logo {
-          margin-inline: auto;
         }
       }
       .container {
@@ -54,42 +52,59 @@
   body {
     &#homepage {
       background-image: url(../space-tourism-website-main/starter-code/assets/home/background-home-mobile.jpg);
+      overflow: scroll;
     }
+
     main {
+      overflow: scroll;
       header {
+        justify-content: space-between;
         margin-top: 0;
         .navbar {
           display: none;
+        }
+        .hamburger {
+          display: flex;
+          margin-right: 1rem;
+          font-size: 40px;
         }
         .logo_line {
           display: none;
         }
         .logo {
-          margin-inline: auto;
+          margin-top: 1rem;
+          margin-left: 1rem;
         }
       }
       .container {
         flex-direction: column;
         align-items: center;
+        height: 100%;
         .homedesc {
+          justify-content: center;
+          align-items: center;
           margin: 0;
           padding: 0;
-          width: 70%;
+          width: 90%;
           text-align: center;
           p:first-of-type {
             margin-top: 15%;
+            font-size: 16px;
           }
           p:last-of-type {
             margin: 0;
+            font-size: 15px;
+            line-height: 180%;
+          }
+          h1 {
+            font-size: 80px;
+            margin: 2rem 0;
           }
         }
         .explore_btn {
-          margin: 0;
-          padding: 0;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          width: 80%;
+          transform: scale(0.55);
+          margin-top: 2rem;
+          width: auto;
           div {
             margin: 0;
           }
