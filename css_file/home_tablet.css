@@ -146,9 +146,6 @@
     width: 10px;
     height: 10px;
   }
-  body main .container .crew .crew_des .crew_phto {
-    height: 60%;
-  }
   body main .container .crew .crew_des .crew_phto img {
     width: 100%;
     -webkit-mask-image: none;
