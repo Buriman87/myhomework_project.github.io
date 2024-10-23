@@ -264,7 +264,6 @@ body {
         }
         .crew_des {
           display: flex;
-          flex-direction: row;
           height: 100%;
           .crew_text {
             display: flex;
@@ -308,7 +307,7 @@ body {
             .btns {
               display: flex;
               align-items: flex-end;
-              gap: 1rem;
+              gap: 2rem;
               height: 10%;
               .btnx {
                 width: 15px;

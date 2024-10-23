@@ -266,7 +266,6 @@ body main .container .crew .crew_title p strong {
 }
 body main .container .crew .crew_des {
   display: flex;
-  flex-direction: row;
   height: 100%;
 }
 body main .container .crew .crew_des .crew_text {
@@ -311,7 +310,7 @@ body main .container .crew .crew_des .crew_text .crew_txt p:last-of-type {
 body main .container .crew .crew_des .crew_text .btns {
   display: flex;
   align-items: flex-end;
-  gap: 1rem;
+  gap: 2rem;
   height: 10%;
 }
 body main .container .crew .crew_des .crew_text .btns .btnx {
