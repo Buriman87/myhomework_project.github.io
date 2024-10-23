@@ -2,6 +2,10 @@
   body#homepage {
     background-image: url(../space-tourism-website-main/starter-code/assets/home/background-home-tablet.jpg);
   }
+  body#destpag {
+    background-image: url(../space-tourism-website-main/starter-code/assets/destination/background-destination-tablet.jpg);
+    overflow: scroll;
+  }
   body main header {
     margin-top: 0;
     height: 10%;
@@ -19,6 +23,7 @@
   body main .container {
     flex-direction: column;
     align-items: center;
+    height: 90%;
   }
   body main .container .homedesc {
     margin: 0;
@@ -43,11 +48,66 @@
   body main .container .explore_btn div {
     margin: 0;
   }
+  body main .container .moonimg {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-left: 0%;
+    margin-top: 0%;
+  }
+  body main .container .moonimg p {
+    padding-left: 0%;
+    margin-top: 2rem;
+    font-weight: 1;
+    font-size: 20px;
+  }
+  body main .container .moonimg img {
+    padding-top: 0%;
+    padding-left: 0%;
+    width: 50%;
+    align-self: center;
+    margin: 5rem 0;
+  }
+  body main .container .rightside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+  }
+  body main .container .rightside .line {
+    margin: 40px 0;
+    width: 100%;
+  }
+  body main .container .rightside .stats {
+    width: 90%;
+    gap: 0;
+    justify-content: space-around;
+  }
+  body main .container .rightside .insidest {
+    padding: 0;
+    justify-content: center;
+  }
+  body main .container .rightside .descriere {
+    text-align: center;
+  }
+  body main .container .rightside .descriere p {
+    width: auto;
+    font-size: 16px;
+    line-height: 180%;
+  }
+  body main .container .rightside .descriere h1 {
+    padding: 0;
+    font-size: 80px;
+  }
 }
 @media only screen and (max-width: 375px) {
   body#homepage {
     background-image: url(../space-tourism-website-main/starter-code/assets/home/background-home-mobile.jpg);
     overflow: scroll;
+  }
+  body#destpag {
+    background-image: url(../space-tourism-website-main/starter-code/assets/destination/background-destination-mobile.jpg);
   }
   body main {
     overflow: scroll;

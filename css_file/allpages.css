@@ -16,25 +16,21 @@ body#homepage {
   background-image: url(../space-tourism-website-main/starter-code/assets/home/background-home-desktop.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
 }
 body#destpag {
   background-image: url(../space-tourism-website-main/starter-code/assets/destination/background-destination-desktop.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
 }
 body#crew {
   background-image: url(../space-tourism-website-main/starter-code/assets/crew/background-crew-desktop.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
 }
 body#tech {
   background-image: url(../space-tourism-website-main/starter-code/assets/technology/background-technology-desktop.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
 }
 body main {
   display: flex;
