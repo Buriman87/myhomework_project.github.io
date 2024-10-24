@@ -247,6 +247,9 @@
     background-image: url(../space-tourism-website-main/starter-code/assets/crew/background-crew-mobile.jpg);
     overflow: scroll;
   }
+  body#tech {
+    background-image: url(../space-tourism-website-main/starter-code/assets/technology/background-technology-mobile.jpg);
+  }
   body main header {
     justify-content: space-between;
     margin-top: 0;
@@ -413,5 +416,24 @@
   body main .container .crew .crew_des .crew_phto img {
     width: 80%;
     height: 100%;
+  }
+  body main .container .tech {
+    width: 100%;
+    margin: 0;
+    height: 100%;
+  }
+  body main .container .tech .tech_title {
+    height: 5%;
+    margin: 0.5rem 0;
+  }
+  body main .container .tech .tech_title p {
+    font-size: 16px;
+    text-align: center;
+  }
+  body main .container .tech .tech_gen .tech_text {
+    height: 50%;
+  }
+  body main .container .tech .tech_gen .tech_photo {
+    height: 50%;
   }
 }/*# sourceMappingURL=home_tablet.css.map */
