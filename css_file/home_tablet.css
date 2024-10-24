@@ -241,6 +241,7 @@
   }
   body#destpag {
     background-image: url(../space-tourism-website-main/starter-code/assets/destination/background-destination-mobile.jpg);
+    overflow: scroll;
   }
   body main {
     overflow: scroll;
@@ -297,5 +298,59 @@
   }
   body main .container .explore_btn div {
     margin: 0;
+  }
+  body main .container .moonimg {
+    width: 90%;
+    margin: 0;
+    text-align: center;
+  }
+  body main .container .moonimg p {
+    font-size: 16px;
+    font-weight: 1;
+    margin: 1.5rem 0;
+    padding: 0;
+  }
+  body main .container .moonimg img {
+    padding: 0;
+    width: 40%;
+    margin: 4rem 0;
+  }
+  body main .container .rightside {
+    width: 90%;
+  }
+  body main .container .rightside .insidest {
+    justify-content: space-around;
+    width: 100%;
+    padding: 0;
+    gap: 0;
+  }
+  body main .container .rightside .insidest div {
+    text-align: center;
+  }
+  body main .container .rightside .descriere p {
+    text-align: center;
+    font-size: 15px;
+    width: 100%;
+    line-height: 1.5;
+  }
+  body main .container .rightside .descriere h1 {
+    text-align: center;
+    font-size: 56px;
+  }
+  body main .container .rightside .line {
+    width: 100%;
+    margin: 2rem 0;
+  }
+  body main .container .rightside .stats {
+    flex-direction: column;
+    gap: 0;
+    align-items: center;
+  }
+  body main .container .rightside .stats div p {
+    font-size: 14px;
+    text-align: center;
+  }
+  body main .container .rightside .stats div h1 {
+    text-align: center;
   }
 }/*# sourceMappingURL=home_tablet.css.map */

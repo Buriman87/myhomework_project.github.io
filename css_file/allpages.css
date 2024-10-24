@@ -231,7 +231,7 @@ body main .container .rightside .stats {
 body main .container .rightside .stats p {
   color: #D0D6F9;
   font-family: "Barlow Condensed", sans-serif;
-  font-size: 14;
+  font-size: 14px;
   letter-spacing: 2px;
   margin-bottom: 12px;
   text-transform: uppercase;
