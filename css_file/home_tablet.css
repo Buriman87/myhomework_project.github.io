@@ -10,6 +10,9 @@
     background-image: url(../space-tourism-website-main/starter-code/assets/crew/background-crew-tablet.jpg);
     overflow: scroll;
   }
+  body#tech {
+    background-image: url(../space-tourism-website-main/starter-code/assets/technology/background-technology-tablet.jpg);
+  }
   body main header {
     margin-top: 0;
     height: 10%;
@@ -158,6 +161,77 @@
     font-weight: 1;
     font-size: 20px;
     letter-spacing: 2px;
+  }
+  body main .container .tech {
+    width: 100%;
+  }
+  body main .container .tech .tech_title {
+    width: 90%;
+    margin-left: 3rem;
+  }
+  body main .container .tech .tech_title p {
+    font-size: 20px;
+    padding-left: 0%;
+    margin-top: 2rem;
+    font-weight: 1;
+    letter-spacing: 2px;
+  }
+  body main .container .tech .tech_gen {
+    flex-direction: column-reverse;
+  }
+  body main .container .tech .tech_gen .tech_txt {
+    width: 100%;
+    flex-direction: column;
+  }
+  body main .container .tech .tech_gen .tech_txt .tech_info {
+    width: 80%;
+  }
+  body main .container .tech .tech_gen .tech_txt .tech_info p {
+    font-size: 28px;
+    text-align: center;
+  }
+  body main .container .tech .tech_gen .tech_txt .tech_info h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+  body main .container .tech .tech_gen .tech_txt .tech_info P:last-of-type {
+    font-size: 16px;
+  }
+  body main .container .tech .tech_gen .tech_txt .tech_btn {
+    flex-direction: row;
+    width: 90%;
+    margin: 1rem 0;
+  }
+  body main .container .tech .tech_gen .tech_txt .tech_btn a {
+    width: 56px;
+    height: 56px;
+  }
+  .techA .tech_photo {
+    display: block !important;
+    width: 100% !important;
+    height: 50% !important;
+  }
+  .techA .tech_photo img {
+    content: url(../space-tourism-website-main/starter-code/assets/technology/tech\ bun.png);
+    width: 100%;
+  }
+  .techB .tech_photo {
+    display: block !important;
+    width: 100% !important;
+    height: 50% !important;
+  }
+  .techB .tech_photo img {
+    content: url(../space-tourism-website-main/starter-code/assets/technology/image-spaceport-landscape.jpg);
+    width: 100%;
+  }
+  .techC .tech_photo {
+    display: block !important;
+    width: 100% !important;
+    height: 50% !important;
+  }
+  .techC .tech_photo img {
+    content: url(../space-tourism-website-main/starter-code/assets/technology//image-space-capsule-landscape.jpg);
+    width: 100%;
   }
 }
 @media only screen and (max-width: 375px) {

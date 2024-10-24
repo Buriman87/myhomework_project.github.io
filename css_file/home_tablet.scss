@@ -11,6 +11,9 @@
       background-image: url(../space-tourism-website-main/starter-code/assets/crew/background-crew-tablet.jpg);
       overflow: scroll;
     }
+    &#tech {
+      background-image: url(../space-tourism-website-main/starter-code/assets/technology/background-technology-tablet.jpg);
+    }
     main {
       header {
         margin-top: 0;
@@ -71,7 +74,6 @@
             width: 40%;
             align-self: center;
             margin: 5rem 0;
-            
           }
         }
         .rightside {
@@ -80,23 +82,23 @@
           justify-content: center;
           align-items: center;
           width: 70%;
-          .line{
+          .line {
             margin: 1rem 0;
             width: 100%;
           }
-          .stats{
+          .stats {
             width: 90%;
             gap: 0;
             justify-content: space-around;
           }
-          .insidest{
+          .insidest {
             padding: 0;
             justify-content: center;
           }
           .descriere {
             text-align: center;
             margin: 2rem 0;
-            p{
+            p {
               width: auto;
               font-size: 16px;
               line-height: 180%;
@@ -117,7 +119,7 @@
               width: 100%;
               height: 40%;
               align-items: center;
-              .crew_txt{
+              .crew_txt {
                 text-align: center;
                 width: 80%;
                 height: auto;
@@ -140,7 +142,7 @@
               }
               .btns {
                 margin: 2rem 0;
-                .btnx{
+                .btnx {
                   width: 10px;
                   height: 10px;
                 }
@@ -148,7 +150,7 @@
             }
             .crew_phto {
               // height: 60%;
-              img{
+              img {
                 width: 100%;
                 mask-image: none;
                 margin: 0;
@@ -156,7 +158,7 @@
             }
           }
           .crew_title {
-            p{
+            p {
               padding-left: 0%;
               margin-top: 2rem;
               font-weight: 1;
@@ -164,8 +166,84 @@
               letter-spacing: 2px;
             }
           }
-
         }
+        .tech {
+          width: 100%;
+          .tech_title {
+            width: 90%;
+            margin-left: 3rem;
+            p {
+              font-size: 20px;
+              padding-left: 0%;
+              margin-top: 2rem;
+              font-weight: 1;
+              letter-spacing: 2px;
+            }
+          }
+          .tech_gen {
+            flex-direction: column-reverse;
+            .tech_txt {
+              width: 100%;
+              flex-direction: column;
+              .tech_info {
+                width: 80%;
+                p {
+                  font-size: 28px;
+                  text-align: center;
+                }
+                h1 {
+                  font-size: 40px;
+                  text-align: center;
+                }
+                P:last-of-type {
+                  font-size: 16px;
+                }
+              }
+              .tech_btn {
+                flex-direction: row;
+                width: 90%;
+                margin: 1rem 0;
+                a {
+                  width: 56px;
+                  height: 56px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .techA {
+    .tech_photo {
+      display: block !important;
+      width: 100% !important;
+      height: 50% !important;
+      img {
+        content: url(../space-tourism-website-main/starter-code/assets/technology/tech\ bun.png);
+        width: 100%;
+      }
+    }
+  }
+  .techB {
+    .tech_photo {
+      display: block !important;
+      width: 100% !important ;
+      height: 50% !important;
+      img {
+        content: url(../space-tourism-website-main/starter-code/assets/technology/image-spaceport-landscape.jpg);
+        width: 100%;
+      }
+    }
+  }
+  .techC {
+    .tech_photo {
+      display: block !important;
+      width: 100% !important ;
+      height: 50% !important;
+      img {
+        content: url(../space-tourism-website-main/starter-code/assets/technology//image-space-capsule-landscape.jpg);
+        width: 100%;
       }
     }
   }
