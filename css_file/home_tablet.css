@@ -206,30 +206,30 @@
     width: 56px;
     height: 56px;
   }
-  .techA .tech_photo {
-    display: block !important;
-    width: 100% !important;
-    height: 50% !important;
+  .techA .tech_photo, .techA #tech_photo_mobile_tablet {
+    display: block;
+    width: 100%;
+    height: 50%;
   }
-  .techA .tech_photo img {
+  .techA .tech_photo img, .techA #tech_photo_mobile_tablet img {
     content: url(../space-tourism-website-main/starter-code/assets/technology/tech\ bun.png);
     width: 100%;
   }
-  .techB .tech_photo {
-    display: block !important;
-    width: 100% !important;
-    height: 50% !important;
+  .techB .tech_photo, .techB #tech_photo_mobile_tablet {
+    display: block;
+    width: 100%;
+    height: 50%;
   }
-  .techB .tech_photo img {
+  .techB .tech_photo img, .techB #tech_photo_mobile_tablet img {
     content: url(../space-tourism-website-main/starter-code/assets/technology/image-spaceport-landscape.jpg);
     width: 100%;
   }
-  .techC .tech_photo {
-    display: block !important;
-    width: 100% !important;
-    height: 50% !important;
+  .techC .tech_photo, .techC #tech_photo_mobile_tablet {
+    display: block;
+    width: 100%;
+    height: 50%;
   }
-  .techC .tech_photo img {
+  .techC .tech_photo img, .techC #tech_photo_mobile_tablet img {
     content: url(../space-tourism-website-main/starter-code/assets/technology//image-space-capsule-landscape.jpg);
     width: 100%;
   }
@@ -423,17 +423,91 @@
     height: 100%;
   }
   body main .container .tech .tech_title {
-    height: 5%;
+    width: 100%;
+    height: 2%;
     margin: 0.5rem 0;
   }
   body main .container .tech .tech_title p {
     font-size: 16px;
     text-align: center;
   }
-  body main .container .tech .tech_gen .tech_text {
+  body main .container .tech .tech_gen {
+    flex-direction: column-reverse;
+    height: 90%;
+  }
+  body main .container .tech .tech_gen .tech_txt {
+    display: flex;
+    flex-direction: column;
     height: 50%;
+    width: 100%;
+  }
+  body main .container .tech .tech_gen .tech_txt .tech_btn {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 2rem 0;
+  }
+  body main .container .tech .tech_gen .tech_txt .tech_btn a {
+    height: 50px;
+    width: 50px;
+    font-size: 18px;
+  }
+  body main .container .tech .tech_gen .tech_txt .tech_info {
+    width: 100%;
+    height: 50%;
+    margin: 0;
+  }
+  body main .container .tech .tech_gen .tech_txt .tech_info P {
+    text-align: center;
+    font-size: 18px;
+  }
+  body main .container .tech .tech_gen .tech_txt .tech_info h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+  body main .container .tech .tech_gen .tech_txt .tech_info p:last-of-type {
+    text-align: center;
+    font-size: 16px;
   }
   body main .container .tech .tech_gen .tech_photo {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+  }
+  body main .container .tech .tech_gen .tech_photo img {
+    content: url(../space-tourism-website-main/starter-code/assets/technology/image-launch-vehicle-landscape.jpg);
+    transform: scale(0.6);
+  }
+  .techA .tech_photo, .techA #tech_photo_mobile_tablet {
+    display: block;
+    width: 100%;
     height: 50%;
+  }
+  .techA .tech_photo img, .techA #tech_photo_mobile_tablet img {
+    content: url(../space-tourism-website-main/starter-code/assets/technology/tech\ bun.png);
+    width: 100%;
+    transform: scale(1);
+  }
+  .techB .tech_photo, .techB #tech_photo_mobile_tablet {
+    display: block;
+    width: 100%;
+    height: 50%;
+  }
+  .techB .tech_photo img, .techB #tech_photo_mobile_tablet img {
+    content: url(../space-tourism-website-main/starter-code/assets/technology/image-spaceport-landscape.jpg);
+    width: 100%;
+    transform: scale(1);
+  }
+  .techC .tech_photo, .techC #tech_photo_mobile_tablet {
+    display: block;
+    width: 100%;
+    height: 50%;
+  }
+  .techC .tech_photo img, .techC #tech_photo_mobile_tablet img {
+    content: url(../space-tourism-website-main/starter-code/assets/technology//image-space-capsule-landscape.jpg);
+    width: 100%;
+    transform: scale(1);
   }
 }/*# sourceMappingURL=home_tablet.css.map */
