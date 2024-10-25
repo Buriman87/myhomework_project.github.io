@@ -446,6 +446,7 @@
     flex-direction: row;
     width: 100%;
     margin: 2rem 0;
+    height: 20%;
   }
   body main .container .tech .tech_gen .tech_txt .tech_btn a {
     height: 50px;
@@ -453,7 +454,7 @@
     font-size: 18px;
   }
   body main .container .tech .tech_gen .tech_txt .tech_info {
-    width: 100%;
+    width: 90%;
     height: 50%;
     margin: 0;
   }
@@ -481,33 +482,33 @@
     transform: scale(0.6);
   }
   .techA .tech_photo, .techA #tech_photo_mobile_tablet {
-    display: block;
     width: 100%;
     height: 50%;
   }
   .techA .tech_photo img, .techA #tech_photo_mobile_tablet img {
-    content: url(../space-tourism-website-main/starter-code/assets/technology/tech\ bun.png);
+    content: url(../space-tourism-website-main/starter-code/assets/technology/image-launch-vehicle-portrait.jpg);
     width: 100%;
     transform: scale(1);
+    height: 100%;
   }
   .techB .tech_photo, .techB #tech_photo_mobile_tablet {
-    display: block;
     width: 100%;
     height: 50%;
   }
   .techB .tech_photo img, .techB #tech_photo_mobile_tablet img {
-    content: url(../space-tourism-website-main/starter-code/assets/technology/image-spaceport-landscape.jpg);
+    content: url(../space-tourism-website-main/starter-code/assets/technology/image-spaceport-portrait.jpg);
     width: 100%;
     transform: scale(1);
+    height: 100%;
   }
   .techC .tech_photo, .techC #tech_photo_mobile_tablet {
-    display: block;
     width: 100%;
     height: 50%;
   }
   .techC .tech_photo img, .techC #tech_photo_mobile_tablet img {
-    content: url(../space-tourism-website-main/starter-code/assets/technology//image-space-capsule-landscape.jpg);
+    content: url(../space-tourism-website-main/starter-code/assets/technology/image-space-capsule-portrait.jpg);
     width: 100%;
     transform: scale(1);
+    height: 100%;
   }
 }/*# sourceMappingURL=home_tablet.css.map */
